@@ -1,0 +1,15 @@
+console.log(/^\.?.[^QUOT3\s]{2}\.?$/.test("SES"));
+console.log(/^\.?["EXPLAINED"]+\.?$/.test("A\"ED"));
+console.log(/^\.?(BA|\.B|Y")+(\1)(\s)\.?$/.test(".B.B "));
+console.log(/^\.?(D\W|EF|IN|I.|TI.N)*\.?$/.test("I D\""));
+console.log(/^\.?[ORIG\.N\s]+\.?$/.test("RGN"));
+console.log(/^\.?[S-TALK]{2,3}\.?$/.test("SA."));
+console.log(/^\.?(BI|T|E"|\s)+\.?$/.test("E\"BI"));
+console.log(/^\.?(SE|\.\s|MET|APHO|R)+\.?$/.test("SE. R"));
+console.log(/^\.?(I|D|IO|M)+\w?(\1)+\.?$/.test("DBD."));
+console.log(/^\.?(\s|W|EE|T)+\W+(\w)+\.?$/.test(" \"N"));
+console.log(/^\.?(PAS|RI|TE)+\.?$/.test("RI."));
+console.log(/^\.?(LIN|GO|\s)+[URBAN]+\.?$/.test(". BA"));
+console.log(/^\.?(BOM|"S|ND\.)+\.?$/.test("ND.\"S"));
+console.log(/^\.?["BABIES"]{4}\.?$/.test("\"BEE"));
+console.log(/^\.?[^NOBEAT\?]*\.?$/.test(" DS"));
